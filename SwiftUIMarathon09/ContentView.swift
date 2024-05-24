@@ -57,6 +57,7 @@ struct ContentView: View {
                     }
                     .animation(.bouncy, value: self.position)
                 Image(systemName: "cloud.sun.rain.fill")
+                    .symbolRenderingMode(.hierarchical)
                     .foregroundColor(.white)
                     .font(.largeTitle)
                     .frame(width: csize, height: csize)
